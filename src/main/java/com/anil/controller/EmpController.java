@@ -31,7 +31,7 @@ public class EmpController {
 	@GetMapping("employees/test")
 	public String test() {
 		
-		return "Hi, Anil kumar das";
+		return "Anil kumar das";
 	}
 
 }
