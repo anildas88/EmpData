@@ -25,7 +25,6 @@ public class EmpController {
 	
 	@RequestMapping("/allEmps")
 	public List<Emp> getAllEmps(){
-		System.out.println("EmpController.getAllEmps()");
 		return service.empEmps();
 	}
 	
