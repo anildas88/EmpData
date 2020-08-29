@@ -30,7 +30,7 @@ public class EmpController {
 	
 	@GetMapping("employees/test")
 	public String test() {
-		System.out.println("dev-4");
+		System.out.println("test");
 		return "Anil kumar das";
 	}
 
