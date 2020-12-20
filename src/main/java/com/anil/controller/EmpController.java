@@ -20,6 +20,7 @@ public class EmpController {
 	public Emp getById(@PathVariable("id") int id) {
 		System.out.println("hi"+" **"+"hello");
 		System.out.println("added new feature");
+		System.out.println("added new 2nd feature");
 		return service.empById(id);
 		
 	}
