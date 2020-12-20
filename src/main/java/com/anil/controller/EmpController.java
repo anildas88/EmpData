@@ -19,6 +19,7 @@ public class EmpController {
 	@RequestMapping("/byId/{id}")
 	public Emp getById(@PathVariable("id") int id) {
 		System.out.println("hi"+" **"+"hello");
+		System.out.println("added new feature");
 		return service.empById(id);
 		
 	}
