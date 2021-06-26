@@ -36,7 +36,9 @@ public class EmpController {
 		
 		return "Anil kumar das";
 	}
-
+	/*
+	date method added.
+	 */
 	private Date date(){
 		return new Date();
 	}
