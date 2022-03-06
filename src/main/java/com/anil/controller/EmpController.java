@@ -1,5 +1,6 @@
 package com.anil.controller;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,19 +20,29 @@ public class EmpController {
 	@RequestMapping("/byId/{id}")
 	public Emp getById(@PathVariable("id") int id) {
 		System.out.println("hi"+" **"+"hello");
+		System.out.println("added new feature");
+		System.out.println("added new 2nd feature");
 		return service.empById(id);
-		
+
 	}
-	
+
 	@RequestMapping("/allEmps")
 	public List<Emp> getAllEmps(){
-		System.out.println("EmpController.getAllEmps()");
 		return service.empEmps();
 	}
-	
+
 	@GetMapping("employees/test")
 	public String test() {
-		return "Anil";
+		
+		return "Anil kumar das";
 	}
+	/*
+	date method added by @A...
+	 */
+	private Date date(){
+		return new Date();
+	}
+
+
 
 }
