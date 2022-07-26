@@ -33,9 +33,6 @@ public class EmpController {
 
 	@GetMapping("employees/test")
 	public String test() {
-		//a
-		//to do
-		//not
 		return "Mr. Anil";
 	}
 	/*
