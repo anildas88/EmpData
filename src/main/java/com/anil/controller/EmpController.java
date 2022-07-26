@@ -36,7 +36,7 @@ public class EmpController {
 		//a
 		//to do
 		//not
-		return "Anil kumar";
+		return "Mr. Anil";
 	}
 	/*
 	date method added by @A...
