@@ -33,12 +33,14 @@ public class EmpController {
 
 	@GetMapping("employees/test")
 	public String test() {
-		return "Mr. Anil k";
+		//to do
+		return "Mr. Anil";
 	}
 	/*
 	date method added by @A...
 	 */
 	private Date date(){
+		//date
 		return new Date();
 	}
 
