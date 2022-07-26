@@ -39,7 +39,6 @@ public class EmpController {
 	date method added by @A...
 	 */
 	private Date date(){
-		//date
 		return new Date();
 	}
 
