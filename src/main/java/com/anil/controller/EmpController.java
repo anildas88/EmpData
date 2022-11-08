@@ -25,12 +25,14 @@ public class EmpController {
 	
 	@RequestMapping("/allEmps")
 	public List<Emp> getAllEmps(){
+
 		return service.empEmps();
 	}
 	
 	@GetMapping("employees/test")
 	public String test() {
 		System.out.println("test");
+		System.out.println("test-2 data");
 		return "Anil kumar das";
 	}
 
