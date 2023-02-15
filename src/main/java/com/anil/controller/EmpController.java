@@ -33,8 +33,8 @@ public class EmpController {
 
 	@GetMapping("employees/test")
 	public String test() {
-		//to do me
-		return "Mr. Anil k das";
+		System.out.println("my test");
+		return "Anil kumar das";
 	}
 	/*
 	date method added by @A...
