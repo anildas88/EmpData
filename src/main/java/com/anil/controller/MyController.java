@@ -6,13 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-public class StdController {
-
+public class MyController {
     @Autowired
     private EmpService service;
 
-    @RequestMapping("/byId/{id}")
-    public Emp getById(@PathVariable("id") int id) {
+    @RequestMapping("/byId/{data}")
+    public Emp getById(@PathVariable("data") int id) {
         return service.empById(id);
 
     }
