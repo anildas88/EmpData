@@ -24,7 +24,10 @@ public class EmpService {
 		List<Emp> emps=repo.getAllEmps();
 		return emps;
 	}
-	
-	
+
+	public String empByName(String name) {
+		String emp="Anil";
+		return emp;
+	}
 
 }
