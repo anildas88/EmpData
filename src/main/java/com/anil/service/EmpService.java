@@ -30,4 +30,10 @@ public class EmpService {
 		return emp;
 	}
 
+	public String empByNames(String name) {
+		String emp="Tapi";
+		return emp;
+	}
+
+
 }
